@@ -1,7 +1,25 @@
-function PalindromePage() {
-    return <div>
-        <h2>Verifique se essa palavra é palíndromo!</h2>
-    </div>
-  }
+import { useState } from "react";
+
+export function IndentifyPalin() {
+
+  const [palindromo, setPalindromo] = useState("");
   
-  export default PalindromePage
+  return (
+    <div>
+        <h3>Verifique se essa palavra é palindromo.</h3>
+          
+          <input
+          placeholder="Insira uma palavra"
+          value={palindromo}
+          onChange={pl =>  setPalindromo(pl.target.value)}
+          />
+          
+          <button>Search</button>
+    </div>
+  
+  )
+}
+
+
+
+export default IndentifyPalin;

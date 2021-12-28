@@ -2,6 +2,7 @@
 
 🚀 Features
 
+- [X] Add input and button.
 - [ ] Join all elements of a string.
 - [ ] Invert array items.
 - [ ] Pull an ordered list of strings, split and search for the pattern.
@@ -21,7 +22,7 @@
  <sub><b>Atevilson Freitas</b></sub></a> <a href="https://medium.com/@freitas.atevilson/inova%C3%A7%C3%A3o-sim-todos-podemos-inovar-18934cfb787e">🚀</a>
 
 
-Feito por Atevilson Freitas 👋🏽 Me siga nas redes!
+Created by Atevilson Freitas 👋🏽 Follow me!
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atevilson-freitas/) 
 [![Medium Badge](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@freitas.atevilson/inova%C3%A7%C3%A3o-sim-todos-podemos-inovar-18934cfb787e)
