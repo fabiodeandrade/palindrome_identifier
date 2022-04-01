@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-aqua: #afdedc;
+  --black-aqua: #121414;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, var(--main-aqua), var(--black-aqua));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-size: 14px;
+}
+
+.palindrome {
+  background-color: #bcdddb;
+  border: 1px solid rgba(172, 242, 245, 0.192);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.192);
+  height: 15rem;
+  min-height: 10rem;
+  max-height: 25rem;
+}
+
+.palindrome input {
+    border: none;
+    width: 60%;
+    padding: .5rem;    
+    border-bottom: 1px solid rgba(33, 49, 49, 0.192);
+    background-color: transparent;
+    text-align: center;
+}
+
+.palindrome button {
+    border: none;
+    width: 30%;
+    padding: .5rem;
+    border-radius: 6px;
+    background-color: #459c96;
+    color: white;
+    cursor: pointer;
+    transition: all ease .6s;
+}
+
+.palindrome button:hover {
+    background-color: #2f6b67;
+    transform: scale(1.05);
+}
+
+.palindrome h2 {
+    font-weight: 300;
+}
